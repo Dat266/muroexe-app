@@ -1,0 +1,130 @@
+.image {
+    background-image: url("../../asset/Screenshot\ 2023-02-05\ 105941.jpg");
+    cursor: pointer;
+    height: 87vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+
+.caro {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-bottom: 140px;
+}
+
+.wrapper {
+    padding: 12px;
+
+    h2 {
+        margin-bottom: 100px;
+    }
+}
+
+.card {
+    width: 228px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+
+    .sub-image {
+        text-align: center;
+        margin-bottom: 150px;
+    }
+}
+
+.sale {
+    background-color: red;
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    z-index: 1;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: aliceblue;
+    text-align: center;
+}
+
+.icon {
+    font-size: 1.5rem;
+    position: absolute;
+    z-index: 1;
+    right: 10px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.cart-icon {
+    font-size: 1.1rem;
+    background-color: black;
+    color: aliceblue;
+    padding: 1rem;
+    cursor: pointer;
+    &:hover {
+        background-color: rgb(39, 69, 172);
+    }
+}
+
+.icon-left {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    font-size: 1.5rem;
+}
+
+.icon-right {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    font-size: 1.5rem;
+}
+
+.title {
+    display: flex;
+}
+
+.name {
+    h2 {
+        font-weight: 400;
+        font-size: 1rem;
+        letter-spacing: 0.1rem;
+        margin-bottom: 0;
+        line-height: 1.2rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+        color: red;
+    }
+
+    span {
+        text-decoration: line-through;
+        font-weight: 500;
+        color: #333;
+        margin-left: 1rem;
+    }
+}
+
+.image-four {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    column-gap: 30px;
+    margin-bottom: 114px;
+}
+
+.nav-image {
+    display: flex;
+    justify-content: space-around;
+    line-height: 34px;
+    margin-bottom: 133px;
+}
+
+.item {
+    text-align: center;
+
+    h3 {
+        color: rgb(1, 75, 160);
+    }
+}
